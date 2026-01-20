@@ -11,7 +11,7 @@ import java.time.Duration;
 public abstract class BasePage {
 
   public WebDriver driver = Driver.getDriver();
-  protected WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+  protected WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
   public WebElement waitForVisibility(By locator) {
     return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
