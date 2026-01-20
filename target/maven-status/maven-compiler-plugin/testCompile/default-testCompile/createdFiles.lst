@@ -22,4 +22,5 @@ pages\LoginValidationPage.class
 pages\EmployeeListPage.class
 test.class
 steps\LoginValidationSteps.class
+hooks\Hooks.class
 runner\TestRunner.class

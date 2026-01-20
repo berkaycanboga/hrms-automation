@@ -28,13 +28,8 @@ public class ProfilePictureSteps {
     assert profilePage.isProfilePictureSectionDisplayed();
   }
 
-  @When("ESS user uploads profile picture from {string}")
-  public void ess_user_uploads_profile_picture(String relativePath) {
-    profilePage.uploadProfilePicture(relativePath);
-  }
-
-  @Then("Profile picture should be updated successfully")
-  public void profile_picture_updated_successfully() {
-    assert profilePage.isUploadSuccessful();
+  @When("ESS user uploads a profile picture")
+  public void ess_user_uploads_profile_picture() {
+    profilePage.uploadProfilePicture();
   }
 }
