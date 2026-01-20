@@ -13,6 +13,8 @@ public class AddUserSteps {
   DashboardPage dashboardPage = new DashboardPage();
   AddUserPage addUserPage = new AddUserPage();
 
+  private String uniqueUsername;
+
   @Given("admin is logged in for user creation")
   public void admin_is_logged_in_for_user_creation() {
     loginPage.login(
@@ -29,7 +31,9 @@ public class AddUserSteps {
 
   @And("admin creates ESS user for employee")
   public void admin_creates_ess_user_for_employee() {
-    addUserPage.fillUserForm("Ali Veli", "ali.ess1", "Qa@2026Test!");
+    // Her build için unique username üret
+    uniqueUsername = "ali.ess" + System.currentTimeMillis();
+    addUserPage.fillUserForm("Ali Veli", uniqueUsername, "Qa@2026Test!");
   }
 
   @And("admin saves the new user")
@@ -40,5 +44,6 @@ public class AddUserSteps {
   @Then("user should be created successfully")
   public void user_should_be_created_successfully() {
     Assert.assertTrue(addUserPage.isUserCreated());
+    System.out.println("Created user: " + uniqueUsername);
   }
 }

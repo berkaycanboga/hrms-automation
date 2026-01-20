@@ -2,7 +2,6 @@ package steps;
 
 import io.cucumber.java.en.*;
 import pages.ContactDetailsPage;
-import pages.LoginPage;
 
 public class ContactDetailsSteps {
 
