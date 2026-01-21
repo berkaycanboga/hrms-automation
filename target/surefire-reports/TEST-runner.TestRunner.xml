@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="runner.TestRunner" time="21.044" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="runner.TestRunner" time="224.097" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.1.8-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\berka\AppData\Local\Temp\surefire13833802969286579668\surefirebooter-20260121031224595_3.jar C:\Users\berka\AppData\Local\Temp\surefire13833802969286579668 2026-01-21T03-12-24_535-jvmRun1 surefire-20260121031224595_1tmp surefire_0-20260121031224595_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\berka\AppData\Local\Temp\surefire13389358504786049336\surefirebooter-20260121153419422_3.jar C:\Users\berka\AppData\Local\Temp\surefire13389358504786049336 2026-01-21T15-34-19_364-jvmRun1 surefire-20260121153419422_1tmp surefire_0-20260121153419422_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\berka\IdeaProjects\group5B24\target\test-classes;C:\Users\berka\IdeaProjects\group5B24\target\classes;C:\Users\berka\.m2\repository\org\seleniumhq\selenium\selenium-java\4.22.0\selenium-java-4.22.0.jar;C:\Users\berka\.m2\repository\org\seleniumhq\selenium\selenium-api\4.22.0\selenium-api-4.22.0.jar;C:\Users\berka\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.22.0\selenium-chrome-driver-4.22.0.jar;C:\Users\berka\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\berka\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.22.0\selenium-chromium-driver-4.22.0.jar;C:\Users\berka\.m2\repository\org\seleniumhq\selenium\selenium-json\4.22.0\selenium-json-4.22.0.jar;C:\Users\berka\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.22.0\selenium-manager-4.22.0.jar;C:\Users\berka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.22.0\selenium-devtools-v124-4.22.0.jar;C:\Users\berka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.22.0\selenium-devtools-v125-4.22.0.jar;C:\Users\berka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.22.0\selenium-devtools-v126-4.22.0.jar;C:\Users\berka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.22.0\selenium-devtools-v85-4.22.0.jar;C:\Users\berka\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.22.0\selenium-edge-driver-4.22.0.jar;C:\Users\berka\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.22.0\selenium-firefox-driver-4.22.0.jar;C:\Users\berka\.m2\repository\org\seleniumhq\selenium\selenium-http\4.22.0\selenium-http-4.22.0.jar;C:\Users\berka\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\berka\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.22.0\selenium-ie-driver-4.22.0.jar;C:\Users\berka\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.22.0\selenium-remote-driver-4.22.0.jar;C:\Users\berka\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\berka\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\berka\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\berka\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\berka\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\berka\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\berka\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\berka\.m2\repository\io\opentelemetry\opentelemetry-api\1.39.0\opentelemetry-api-1.39.0.jar;C:\Users\berka\.m2\repository\io\opentelemetry\opentelemetry-context\1.39.0\opentelemetry-context-1.39.0.jar;C:\Users\berka\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.39.0\opentelemetry-exporter-logging-1.39.0.jar;C:\Users\berka\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.39.0\opentelemetry-sdk-common-1.39.0.jar;C:\Users\berka\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.39.0\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar;C:\Users\berka\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.39.0\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar;C:\Users\berka\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.39.0-alpha\opentelemetry-api-incubator-1.39.0-alpha.jar;C:\Users\berka\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.39.0\opentelemetry-sdk-trace-1.39.0.jar;C:\Users\berka\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.39.0\opentelemetry-sdk-1.39.0.jar;C:\Users\berka\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.39.0\opentelemetry-sdk-metrics-1.39.0.jar;C:\Users\berka\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.39.0\opentelemetry-sdk-logs-1.39.0.jar;C:\Users\berka\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;C:\Users\berka\.m2\repository\org\seleniumhq\selenium\selenium-os\4.22.0\selenium-os-4.22.0.jar;C:\Users\berka\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\berka\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.22.0\selenium-safari-driver-4.22.0.jar;C:\Users\berka\.m2\repository\org\seleniumhq\selenium\selenium-support\4.22.0\selenium-support-4.22.0.jar;C:\Users\berka\.m2\repository\io\cucumber\cucumber-java\7.17.0\cucumber-java-7.17.0.jar;C:\Users\berka\.m2\repository\io\cucumber\cucumber-core\7.17.0\cucumber-core-7.17.0.jar;C:\Users\berka\.m2\repository\io\cucumber\cucumber-gherkin\7.17.0\cucumber-gherkin-7.17.0.jar;C:\Users\berka\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.17.0\cucumber-gherkin-messages-7.17.0.jar;C:\Users\berka\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\berka\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\berka\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\berka\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\berka\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\berka\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\berka\.m2\repository\io\cucumber\datatable\7.17.0\datatable-7.17.0.jar;C:\Users\berka\.m2\repository\io\cucumber\cucumber-plugin\7.17.0\cucumber-plugin-7.17.0.jar;C:\Users\berka\.m2\repository\io\cucumber\docstring\7.17.0\docstring-7.17.0.jar;C:\Users\berka\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\berka\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\berka\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\berka\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\berka\.m2\repository\io\cucumber\cucumber-junit\7.17.0\cucumber-junit-7.17.0.jar;C:\Users\berka\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\berka\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\berka\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\berka\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\berka\.m2\repository\com\google\code\gson\gson\2.13.0\gson-2.13.0.jar;C:\Users\berka\.m2\repository\com\google\errorprone\error_prone_annotations\2.37.0\error_prone_annotations-2.37.0.jar;C:\Users\berka\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\berka\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\berka\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\berka\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\berka\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\berka\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\berka\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\berka\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\berka\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\berka\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\berka\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\berka\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\berka\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\berka\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\berka\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\berka\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\berka\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\berka\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\berka\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\berka\AppData\Local\Temp\surefire13833802969286579668\surefirebooter-20260121031224595_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\berka\AppData\Local\Temp\surefire13389358504786049336\surefirebooter-20260121153419422_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS"/>
@@ -60,7 +60,43 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="ESS user edits and saves their contact details" classname="ESS user updates their contact details" time="20.751">
+  <testcase name="Admin adds a new employee without providing employee ID" classname="Add Employee in HRMS" time="17.279">
+    <system-out><![CDATA[
+@US2
+Scenario: Admin adds a new employee without providing employee ID &amp#27;[90m# src/test/resources/features/add_employee.feature:5&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin is logged in&amp#27;[0m                                        &amp#27;[90m# steps.AddEmployeeSteps.admin_is_logged_in()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin navigates to Add Employee page&amp#27;[0m                       &amp#27;[90m# steps.AddEmployeeSteps.admin_navigates_to_add_employee_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32madmin enters employee first and last name&amp#27;[0m                   &amp#27;[90m# steps.AddEmployeeSteps.admin_enters_employee_first_and_last_name()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32madmin saves the employee&amp#27;[0m                                    &amp#27;[90m# steps.AddEmployeeSteps.admin_saves_the_employee()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32memployee should be added successfully&amp#27;[0m                      &amp#27;[90m# steps.AddEmployeeSteps.employee_should_be_added_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jan 21, 2026 3:34:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 21, 2026 3:34:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Admin creates ESS user for existing employee" classname="Create Login Details for Employee" time="15.68">
+    <system-out><![CDATA[
+@US3
+Scenario: Admin creates ESS user for existing employee &amp#27;[90m# src/test/resources/features/add_user.feature:5&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin is logged in for user creation&amp#27;[0m           &amp#27;[90m# steps.AddUserSteps.admin_is_logged_in_for_user_creation()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin navigates to Add User page&amp#27;[0m                &amp#27;[90m# steps.AddUserSteps.admin_navigates_to_add_user_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32madmin creates ESS user for employee&amp#27;[0m              &amp#27;[90m# steps.AddUserSteps.admin_creates_ess_user_for_employee()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32madmin saves the new user&amp#27;[0m                         &amp#27;[90m# steps.AddUserSteps.admin_saves_the_new_user()&amp#27;[0m
+Created user: ali.ess1768998887757
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should be created successfully&amp#27;[0m             &amp#27;[90m# steps.AddUserSteps.user_should_be_created_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 21, 2026 3:34:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 21, 2026 3:34:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="ESS user edits and saves their contact details" classname="ESS user updates their contact details" time="19.611">
     <system-out><![CDATA[
 @US6
 Scenario: ESS user edits and saves their contact details                                                                               &amp#27;[90m# src/test/resources/features/contact_details.feature:3&amp#27;[0m
@@ -70,12 +106,180 @@ Scenario: ESS user edits and saves their contact details                        
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mESS user updates contact details with &amp#27;[0m&amp#27;[32m&amp#27;[1m"Street 1"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"Street 2"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"City"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"State"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"Turkey"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"111111111"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"222222222"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"333333333"&amp#27;[0m &amp#27;[90m# steps.ContactDetailsSteps.ess_user_updates_contact_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mcontact details should be updated successfully&amp#27;[0m                                                                                  &amp#27;[90m# steps.ContactDetailsSteps.contact_details_should_be_updated_successfully()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
-SLF4J(W): Defaulting to no-operation (NOP) logger implementation
-SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Jan 21, 2026 3:12:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jan 21, 2026 3:34:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 143
-Jan 21, 2026 3:12:25 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jan 21, 2026 3:34:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Add a dependent for an employee" classname="ESS user can add dependents" time="18.637">
+    <system-out><![CDATA[
+@US8
+Scenario: Add a dependent for an employee                             &amp#27;[90m# src/test/resources/features/dependents.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mESS user is logged in for dependents&amp#27;[0m                          &amp#27;[90m# steps.DependentsSteps.ess_user_is_logged_in_for_dependents()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mESS user navigates to Dependents of &amp#27;[0m&amp#27;[32m&amp#27;[1m"John Doe"&amp#27;[0m                 &amp#27;[90m# steps.DependentsSteps.ess_user_navigates_to_dependents_of(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mDependents section should be displayed&amp#27;[0m                         &amp#27;[90m# steps.DependentsSteps.dependents_section_should_be_displayed()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mESS user adds a dependent with &amp#27;[0m&amp#27;[32m&amp#27;[1m"Jane Doe"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"Child"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"2015-06-01"&amp#27;[0m &amp#27;[90m# steps.DependentsSteps.ess_user_adds_a_dependent(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mDependent should be added successfully&amp#27;[0m                         &amp#27;[90m# steps.DependentsSteps.dependent_should_be_added_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 21, 2026 3:35:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 21, 2026 3:35:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Admin logs in successfully with valid credentials" classname="HRMS Admin Login" time="5.192">
+    <system-out><![CDATA[
+@US1
+Scenario: Admin logs in successfully with valid credentials &amp#27;[90m# src/test/resources/features/login.feature:5&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin logs in with valid credentials&amp#27;[0m                 &amp#27;[90m# steps.LoginSteps.admin_logs_in_with_valid_credentials()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32madmin should see the dashboard page&amp#27;[0m                  &amp#27;[90m# steps.LoginSteps.admin_should_see_the_dashboard_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 21, 2026 3:35:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 21, 2026 3:35:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Validate login errors #1" classname="Login Error Validation" time="5.044">
+    <system-out><![CDATA[
+@US9
+Scenario Outline: Validate login errors                                 &amp#27;[90m# src/test/resources/features/login_validation.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login validation page&amp#27;[0m                                &amp#27;[90m# steps.LoginValidationSteps.user_is_on_login_validation_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters validation username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Admin"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"wrongpass"&amp#27;[0m &amp#27;[90m# steps.LoginValidationSteps.user_enters_validation_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks login button&amp#27;[0m                                          &amp#27;[90m# steps.LoginValidationSteps.user_clicks_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidation error message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid credentials"&amp#27;[0m&amp#27;[32m should be shown&amp#27;[0m   &amp#27;[90m# steps.LoginValidationSteps.validation_error_message_should_be_shown(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser stays on login page&amp#27;[0m                                          &amp#27;[90m# steps.LoginValidationSteps.user_stays_on_login_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 21, 2026 3:35:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 21, 2026 3:35:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Validate login errors #2" classname="Login Error Validation" time="23.72">
+    <system-out><![CDATA[
+@US9
+Scenario Outline: Validate login errors                             &amp#27;[90m# src/test/resources/features/login_validation.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login validation page&amp#27;[0m                            &amp#27;[90m# steps.LoginValidationSteps.user_is_on_login_validation_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters validation username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Admin"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"EMPTY"&amp#27;[0m &amp#27;[90m# steps.LoginValidationSteps.user_enters_validation_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks login button&amp#27;[0m                                      &amp#27;[90m# steps.LoginValidationSteps.user_clicks_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidation error message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Required"&amp#27;[0m&amp#27;[32m should be shown&amp#27;[0m          &amp#27;[90m# steps.LoginValidationSteps.validation_error_message_should_be_shown(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser stays on login page&amp#27;[0m                                      &amp#27;[90m# steps.LoginValidationSteps.user_stays_on_login_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 21, 2026 3:35:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 21, 2026 3:35:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Validate login errors #3" classname="Login Error Validation" time="23.67">
+    <system-out><![CDATA[
+@US9
+Scenario Outline: Validate login errors                                &amp#27;[90m# src/test/resources/features/login_validation.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login validation page&amp#27;[0m                               &amp#27;[90m# steps.LoginValidationSteps.user_is_on_login_validation_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters validation username &amp#27;[0m&amp#27;[32m&amp#27;[1m"EMPTY"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin123"&amp#27;[0m &amp#27;[90m# steps.LoginValidationSteps.user_enters_validation_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks login button&amp#27;[0m                                         &amp#27;[90m# steps.LoginValidationSteps.user_clicks_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidation error message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Required"&amp#27;[0m&amp#27;[32m should be shown&amp#27;[0m             &amp#27;[90m# steps.LoginValidationSteps.validation_error_message_should_be_shown(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser stays on login page&amp#27;[0m                                         &amp#27;[90m# steps.LoginValidationSteps.user_stays_on_login_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 21, 2026 3:36:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 21, 2026 3:36:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Validate login errors #4" classname="Login Error Validation" time="23.49">
+    <system-out><![CDATA[
+@US9
+Scenario Outline: Validate login errors                             &amp#27;[90m# src/test/resources/features/login_validation.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login validation page&amp#27;[0m                            &amp#27;[90m# steps.LoginValidationSteps.user_is_on_login_validation_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters validation username &amp#27;[0m&amp#27;[32m&amp#27;[1m"EMPTY"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"EMPTY"&amp#27;[0m &amp#27;[90m# steps.LoginValidationSteps.user_enters_validation_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks login button&amp#27;[0m                                      &amp#27;[90m# steps.LoginValidationSteps.user_clicks_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidation error message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Required"&amp#27;[0m&amp#27;[32m should be shown&amp#27;[0m          &amp#27;[90m# steps.LoginValidationSteps.validation_error_message_should_be_shown(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser stays on login page&amp#27;[0m                                      &amp#27;[90m# steps.LoginValidationSteps.user_stays_on_login_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 21, 2026 3:36:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 21, 2026 3:36:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="ESS user edits and saves personal details" classname="ESS user edits and saves personal details via PIM" time="16.956">
+    <system-out><![CDATA[
+@US5
+Scenario: ESS user edits and saves personal details                                                      &amp#27;[90m# src/test/resources/features/personal_details.feature:7&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mESS user is logged in&amp#27;[0m                                                                            &amp#27;[90m# steps.PersonalDetailsSteps.ess_user_is_logged_in()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mESS user navigates to Employee List page&amp#27;[0m                                                          &amp#27;[90m# steps.PersonalDetailsSteps.ess_user_navigates_to_employee_list_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mESS user searches for employee &amp#27;[0m&amp#27;[32m&amp#27;[1m"Ali Veli"&amp#27;[0m                                                          &amp#27;[90m# steps.PersonalDetailsSteps.ess_user_searches_for_employee(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mESS user opens personal details of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Ali Veli"&amp#27;[0m                                                      &amp#27;[90m# steps.PersonalDetailsSteps.ess_user_opens_personal_details_of(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mpersonal details page should be displayed&amp#27;[0m                                                         &amp#27;[90m# steps.PersonalDetailsSteps.personal_details_page_should_be_displayed()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mESS user updates personal details with &amp#27;[0m&amp#27;[32m&amp#27;[1m"Ahmet"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"Mehmet"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"Yilmaz"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"Female"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"Turkish"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"Single"&amp#27;[0m &amp#27;[90m# steps.PersonalDetailsSteps.ess_user_updates_personal_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mpersonal details should be updated successfully&amp#27;[0m                                                   &amp#27;[90m# steps.PersonalDetailsSteps.personal_details_should_be_updated_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 21, 2026 3:36:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 21, 2026 3:36:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="ESS user uploads a profile picture" classname="Profile Picture Upload" time="16.46">
+    <system-out><![CDATA[
+@US7
+Scenario: ESS user uploads a profile picture               &amp#27;[90m# src/test/resources/features/profile_picture.feature:5&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mESS user is logged in for profile picture upload&amp#27;[0m   &amp#27;[90m# steps.ProfilePictureSteps.ess_user_logged_in_for_profile_picture()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mESS user navigates to profile picture of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Ali Veli"&amp#27;[0m &amp#27;[90m# steps.ProfilePictureSteps.ess_user_navigates_to_profile_picture(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mProfile picture section should be displayed&amp#27;[0m         &amp#27;[90m# steps.ProfilePictureSteps.profile_picture_section_displayed()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mESS user uploads a profile picture&amp#27;[0m                  &amp#27;[90m# steps.ProfilePictureSteps.ess_user_uploads_profile_picture()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 21, 2026 3:37:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 21, 2026 3:37:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Search employee by full name" classname="Search for an Employee in HRMS" time="12.149">
+    <system-out><![CDATA[
+@US4
+Scenario: Search employee by full name                   &amp#27;[90m# src/test/resources/features/search_employee.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin is logged in for employee search&amp#27;[0m           &amp#27;[90m# steps.SearchEmployeeSteps.admin_is_logged_in_for_employee_search()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32madmin navigates to Employee List page&amp#27;[0m              &amp#27;[90m# steps.SearchEmployeeSteps.admin_navigates_to_employee_list_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin searches employee by name &amp#27;[0m&amp#27;[32m&amp#27;[1m"Ali Veli"&amp#27;[0m        &amp#27;[90m# steps.SearchEmployeeSteps.admin_searches_employee_by_name(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32memployee with name &amp#27;[0m&amp#27;[32m&amp#27;[1m"Ali Veli"&amp#27;[0m&amp#27;[32m should be displayed&amp#27;[0m &amp#27;[90m# steps.SearchEmployeeSteps.employee_with_name_should_be_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 21, 2026 3:37:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 21, 2026 3:37:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Search employee by employee id" classname="Search for an Employee in HRMS" time="11.445">
+    <system-out><![CDATA[
+@US4
+Scenario: Search employee by employee id           &amp#27;[90m# src/test/resources/features/search_employee.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin is logged in for employee search&amp#27;[0m     &amp#27;[90m# steps.SearchEmployeeSteps.admin_is_logged_in_for_employee_search()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32madmin navigates to Employee List page&amp#27;[0m        &amp#27;[90m# steps.SearchEmployeeSteps.admin_navigates_to_employee_list_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin searches employee by id &amp#27;[0m&amp#27;[32m&amp#27;[1m"0912"&amp#27;[0m        &amp#27;[90m# steps.SearchEmployeeSteps.admin_searches_employee_by_id(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32memployee with id &amp#27;[0m&amp#27;[32m&amp#27;[1m"0912"&amp#27;[0m&amp#27;[32m should be displayed&amp#27;[0m &amp#27;[90m# steps.SearchEmployeeSteps.employee_with_id_should_be_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 21, 2026 3:37:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 21, 2026 3:37:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Search with no matching result" classname="Search for an Employee in HRMS" time="14.467">
+    <system-out><![CDATA[
+@US4
+Scenario: Search with no matching result               &amp#27;[90m# src/test/resources/features/search_employee.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin is logged in for employee search&amp#27;[0m         &amp#27;[90m# steps.SearchEmployeeSteps.admin_is_logged_in_for_employee_search()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32madmin navigates to Employee List page&amp#27;[0m            &amp#27;[90m# steps.SearchEmployeeSteps.admin_navigates_to_employee_list_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin searches employee by name &amp#27;[0m&amp#27;[32m&amp#27;[1m"NotExist User"&amp#27;[0m &amp#27;[90m# steps.SearchEmployeeSteps.admin_searches_employee_by_name(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32msystem should show No Records Found message&amp#27;[0m     &amp#27;[90m# steps.SearchEmployeeSteps.system_should_show_no_records_found_message()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 21, 2026 3:37:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 21, 2026 3:37:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
