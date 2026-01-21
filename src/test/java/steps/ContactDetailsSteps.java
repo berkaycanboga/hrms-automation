@@ -17,15 +17,14 @@ public class ContactDetailsSteps {
     assert contactDetailsPage.isContactDetailsPageDisplayed();
   }
 
-  @When("ESS user updates contact details with {string} {string} {string} {string} {string} {string} {string} {string} {string} {string} {string}")
+  @When("ESS user updates contact details with {string} {string} {string} {string} {string} {string} {string} {string} {string}")
   public void ess_user_updates_contact_details(String addressStreet1, String addressStreet2,
                                                String city, String state, String zipCode,
                                                String country, String homePhone,
-                                               String mobilePhone, String workPhone,
-                                               String workEmail, String otherEmail) {
+                                               String mobilePhone, String workPhone) {
     contactDetailsPage.editContactDetails(
             addressStreet1, addressStreet2, city, state, zipCode,
-            country, homePhone, mobilePhone, workPhone, workEmail, otherEmail
+            country, homePhone, mobilePhone, workPhone
     );
   }
 

@@ -54,8 +54,7 @@ public class ContactDetailsPage extends BasePage {
 
   public void editContactDetails(String addressStreet1, String addressStreet2, String city,
                                  String state, String zipCode, String country,
-                                 String homePhone, String mobilePhone, String workPhone,
-                                 String workEmail, String otherEmail) {
+                                 String homePhone, String mobilePhone, String workPhone) {
 
     waitForLoaderToDisappear();
 
@@ -73,8 +72,8 @@ public class ContactDetailsPage extends BasePage {
     safeInput(workPhoneInput, workPhone);
 
     String uniqueSuffix = System.currentTimeMillis() % 10000 + "";
-    safeInput(workEmailInput, appendEmailSuffix(workEmail, uniqueSuffix));
-    safeInput(otherEmailInput, appendEmailSuffix(otherEmail, uniqueSuffix));
+    safeInput(workEmailInput, "work" + uniqueSuffix + "@example.com");
+    safeInput(otherEmailInput, "other" + uniqueSuffix + "@example.com");
 
     waitForClickability(saveBtn).click();
     waitForLoaderToDisappear();
@@ -87,16 +86,13 @@ public class ContactDetailsPage extends BasePage {
   private void safeInput(By locator, String text) {
     WebElement element = waitForClickability(locator);
     element.click();
-    element.clear();
-    element.sendKeys(text);
-  }
 
-  private String appendEmailSuffix(String email, String suffix) {
-    if (email.contains("@")) {
-      String[] parts = email.split("@");
-      return parts[0] + suffix + "@" + parts[1];
-    } else {
-      return email + suffix;
+    String currentValue = element.getAttribute("value");
+    if (currentValue != null && !currentValue.isEmpty()) {
+      element.clear();
+      element.sendKeys("\u0008".repeat(currentValue.length()));
     }
+
+    element.sendKeys(text);
   }
 }
